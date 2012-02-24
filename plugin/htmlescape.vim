@@ -11,5 +11,5 @@ function HtmlUnEscape()
   silent s/&amp;/\&/eg
 endfunction
 
-map <silent> <c-h> :call HtmlEscape()<CR>
-map <silent> <c-u> :call HtmlUnEscape()<CR>
+map <silent> <Leader>he :call HtmlEscape()<CR>
+map <silent> <Leader>hu :call HtmlUnEscape()<CR>
